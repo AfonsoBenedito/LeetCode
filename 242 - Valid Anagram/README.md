@@ -1,4 +1,4 @@
-# 217. Contains Duplicate
+# 242 - Valid Anagram
 
 ## Meta Information
 - **Difficulty:** *Easy*
