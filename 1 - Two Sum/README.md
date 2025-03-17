@@ -1,37 +1,40 @@
-# 217. Contains Duplicate
+# 1. Two Sum
 
 ## Meta Information
 - **Difficulty:** *Easy*
-- **Tags:** *Array, Hash Table, Sorting*
+- **Tags:** *Array, Hash Table*
 
 ## Problem Description
-Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+Given an array of integers `nums` and an integer `target`, _return indices of the two numbers such that they add up to `target`._
+
+You may assume that each input would have **exactly one solution**, and you may not use the _same_ element twice.
+
+You can return the answer in any order.
 ```
 Example 1:
-Input: nums = [1,2,3,1]
-Output: true
-Explanation:
-The element 1 occurs at the indices 0 and 3.
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 ```
 
 ```
 Example 2:
-Input: nums = [1,2,3,4]
-Output: false
-Explanation:
-All elements are distinct.
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
 ```
 
 ```
 Example 3:
-Input: nums = [1,1,1,3,3,4,3,2,4,2]
-Output: true
+Input: nums = [3,3], target = 6
+Output: [0,1]
 ```
 
 
 **Constraints:**
-- ```1 <= nums.length <= 105```
+- ```2 <= nums.length <= 104```
 - ```-10^9 <= nums[i] <= 10^9```
+- ```-10^9 <= target <= 10^9```
+- **Only one valid answer exists.**
 
 
 ## Performance
