@@ -10,7 +10,6 @@ def encode(strs: list[str]) -> str:
 
 		return result
 
-
 def decode(s: str) -> list[str]:
 	"""
 	Time Complexity: O(n)
