@@ -21,6 +21,6 @@ target2 = 6
 nums3 = [3,3]
 target3 = 6
 
-print(f"Nums1: {submited(nums1, target1)}")
-print(f"Nums2: {submited(nums2, target2)}")
-print(f"Nums3: {submited(nums3, target3)}")
+print(f"Nums1: {submitted(nums1, target1)}")
+print(f"Nums2: {submitted(nums2, target2)}")
+print(f"Nums3: {submitted(nums3, target3)}")
