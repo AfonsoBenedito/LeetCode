@@ -22,6 +22,6 @@ strs1 = ["eat","tea","tan","ate","nat","bat"]
 strs2 = [""]
 strs3 = ["a"]
 
-print(f"Nums1: {submited(strs1)}")
-print(f"Nums2: {submited(strs2)}")
-print(f"Nums3: {submited(strs3)}")
+print(f"Nums1: {submitted(strs1)}")
+print(f"Nums2: {submitted(strs2)}")
+print(f"Nums3: {submitted(strs3)}")

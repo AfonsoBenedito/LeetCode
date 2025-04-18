@@ -25,5 +25,5 @@ k1 = 2
 nums2 = [1]
 k2 = 1
 
-print(f"Nums1: {submited(nums1, k1)}")
-print(f"Nums2: {submited(nums2, k2)}")
+print(f"Nums1: {submitted(nums1, k1)}")
+print(f"Nums2: {submitted(nums2, k2)}")

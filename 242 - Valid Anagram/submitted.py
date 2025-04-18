@@ -9,4 +9,4 @@ def submitted(firstWord, secondWord):
 
 firstWord = "anagram"
 secondWord = "nagaram"
-print(f"Are Anagrams: {submited(firstWord, secondWord)}")
+print(f"Are Anagrams: {submitted(firstWord, secondWord)}")
